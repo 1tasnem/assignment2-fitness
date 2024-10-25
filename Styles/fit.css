@@ -76,3 +76,267 @@ height: 46px;
   justify-content: center;
   align-items: center;
 }
+.banner{
+  display: flex;
+  justify-content: space-between;
+}
+.banner-content{
+  width:510px;
+
+}
+.banner-title{
+  color: rgb(255, 255, 255);
+font-size: 70px;
+font-weight: 900;
+margin-bottom: 0px;
+line-height:75px;
+
+}
+#shape{
+  font-family: 'Miama', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.banner-des{
+  font-size: 1rem;
+  font-weight: 400;
+  color:rgba(255, 255, 255,0.5);
+  margin-top: 40px;
+}
+.btn-first{
+  background: rgb(230, 83, 60);
+    border-radius: 42px;
+    color:white;
+    padding:10px 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    width:180px;
+    margin-top: 20px;
+
+}
+
+.btn-second{
+  background:none;
+  border-radius: 42px;
+  color:white;
+  padding:10px 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid white;
+  width:180px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.banner-btn1{
+  width: 206px;
+height: 90px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+color: rgba(239, 237, 232, 0.65);
+font-size: 1rem;
+font-weight: 400;
+display: flex;
+justify-content: space-around;
+margin-left: -100px;
+  margin-top: -150px;
+  padding: 20px 10px;
+  align-items: center;
+}
+.red-circle{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: red;
+}
+.banner-pic{
+  width:349px;
+  height:550px;
+  margin-top:30px;
+  margin-right: 70px;
+  background-color:black
+  
+
+  
+  
+}
+.button-content{
+  width:108px;
+  padding:10px;
+}
+.videos{
+  color:white;
+  font-size: 24px;
+font-weight: 900;
+}
+.banner-btn2{
+  width:180px;
+  height: 90px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 14px;
+  position: relative;
+  bottom:390px;
+  left:240px;
+  
+}
+.channge-your-habits{
+  width:1044px;
+  margin: 0 auto;
+}
+
+
+
+/* Responsive*/
+/*iphon*/
+
+@media screen and (max-width: 576px){
+  .navbar{
+    flex-direction: row;
+    justify-content: left;
+    gap:200px;
+    
+  }
+  .menu-bar{
+    display: block;
+    width:18px;
+    display: grid;
+    margin-left: 20px;
+  }
+  .menu{
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 2px;
+    
+
+}
+.fitness{
+  margin-left: 20px;
+}
+.nav-link{
+  display: none;
+}
+.banner{
+  flex-direction: column;
+}
+
+.banner-title{
+  text-align: left;
+  font-size:36px;
+  width:285px;
+  margin-left:25px;
+  line-height: 50px;
+
+}
+.banner-des{
+  width:270px;
+  height: 90px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.btn-first,.btn-second{
+  margin-top: auto;
+}
+.banner-btn1{
+  width:170px;
+  height: 70px;
+ margin-left:35px;
+  border: 1px;
+  position: relative;
+  bottom: 150px;
+  font-size: 20px;
+  
+}
+.red-circle{
+  width:30px;
+  height: 30px;
+}
+.button-content{
+text-wrap: nowrap;
+}
+.video{
+  font-size:20px;
+  
+}
+.banner-btn2{
+  width: 145px;
+  height: 75px;
+  margin-top: -100px;
+  font-size: 14px;
+}
+.videos{
+  font-size: 30px;
+}
+}
+/* ipad */
+
+@media screen and (min-width: 576px) and (max-width:992px){
+
+  .navbar{
+    
+    justify-content: space-between;
+    gap:20px;
+    width:50%;
+    
+  }
+
+
+
+  .banner{
+    flex-direction: column;
+    
+
+  }
+  .menu-bar{
+    gap:30px;
+    margin-left: 200px;
+    
+  }
+  .banner-content{
+    margin-left:50px;
+  }
+  .fitness{
+    margin-left: 50px;
+  }
+  .banner-pic{
+    margin-left: 120px;
+  }
+  .banner-btn1{
+    width:170px;
+    height: 70px;
+   margin-left:35px;
+    border: 1px;
+    position: relative;
+    bottom: 150px;
+    font-size: 20px;
+    
+  }
+  .red-circle{
+    width:30px;
+    height: 30px;
+  }
+  .button-content{
+  text-wrap: nowrap;
+  }
+  .video{
+    font-size:20px;
+    
+  }
+  .banner-btn2{
+    width: 145px;
+    height: 75px;
+    margin-top: -50x;
+    margin-left:70px;
+    font-size: 14px;
+  }
+  .videos{
+    font-size: 30px;
+  }
+  }
+
