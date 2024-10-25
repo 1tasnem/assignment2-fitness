@@ -185,13 +185,56 @@ font-weight: 900;
   left:240px;
   
 }
+
 .channge-your-habits{
   width:1044px;
   margin: 0 auto;
+  margin-bottom: 80px;
+
 }
+.habit-deatils{
+  text-align: center;
+
+}
+.section-title{
+  color:white;
+  font-size:3rem;
+  font-weight: 900px;
 
 
+}
+.section-para{
+  color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 24px;
+  
+}
+.habit-pic{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 50px;
+}
+.habit-pic img{
+  height: 150px;
+  width:150px;
+  border-radius: 50%;
+}
+.pic-title{
+  color:white;
+  font-size:1rem;
+  font-weight: 600;
 
+
+}
+.pic-deatils{
+  color:rgba(255, 255, 255, 0.5);
+  font-size:14px;
+  
+
+}
+.pic{
+  text-align: center;
+}
 /* Responsive*/
 /*iphon*/
 
@@ -273,6 +316,18 @@ text-wrap: nowrap;
 .videos{
   font-size: 30px;
 }
+
+.channge-your-habits{
+  width:340px;
+  margin-top: 100px;
+}
+ .habit-pic{
+  display: flex;
+  flex-direction: column;
+ }
+ .pic{
+  margin-bottom: 30px;
+ }
 }
 /* ipad */
 
@@ -290,6 +345,8 @@ text-wrap: nowrap;
 
   .banner{
     flex-direction: column;
+    width:1024px;
+    margin-left: 70px;
     
 
   }
@@ -338,5 +395,40 @@ text-wrap: nowrap;
   .videos{
     font-size: 30px;
   }
+  .channge-your-habits{
+    width:350px;
+    margin-left:200px;
+  }
+  .habit-pic{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+  }
+  .section-title{
+    text-wrap: nowrap;
+     font-size:48px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 900;
+    width:350px;
+    
+  }
+  .section-para{
+    font-weight: 400;
+    font-size: 14px;
+    width: 450px;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 10px;
+
+
+  }
+  .pic-deatils{
+    font-weight: 400;
+    font-size: 10px;
+    
+
+  }
+  
   }
 
