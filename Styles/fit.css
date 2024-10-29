@@ -482,7 +482,56 @@ form{
   width:580px;
 margin-left: 40px;
 }
+.team{
+  width:680px;
+  height: 120px;
+  margin:0 auto;
+  margin-top: 40px;
+}
+.team p{
+  margin-left: -60px;
+}
 
+.team-card
+{
+  width: 1150px;
+  height: 604px;
+  border-radius: 18px;
+  margin:0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  margin-top:30px;
+  padding:20px;
+
+}
+.team-card img{
+
+  width: 330px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 18px;
+
+}
+
+.team-pic{
+  margin-left: 10px;
+}
+.name{
+  font-size: 18px;
+  font-weight:900;
+  color:white;
+  margin-top:-70px;
+  margin-left: 10px;
+}
+.trianer-title{
+  
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-top:-20px;
+    margin-left: 10px;
+     
+}
 /* Responsive*/
 /*iphon*/
 
@@ -664,6 +713,30 @@ input[type="text"], #sex{
   
   margin-top: 20px;
 }
+.team-card{
+       width: 330px;
+        height:100%;
+        grid-template-columns: repeat(1,1fr);
+}
+.team-card img{
+  width:300px;
+  height: 260px;
+  margin-left: 15px;
+}
+.team{
+  width:300px;
+  margin:0 auto;
+  margin-top:40px;
+  
+  
+}
+.name,.trianer-title{
+  margin-left: 30px;
+}
+.team bmi-para{
+  margin-right:100px;
+}
+
 }
 /* ipad */
 
