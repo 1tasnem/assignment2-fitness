@@ -532,6 +532,77 @@ margin-left: 40px;
     margin-left: 10px;
      
 }
+footer{
+  width:100%;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top:70px;
+}
+.footer-part{
+  
+    display: flex;
+    padding:65px 170px 100px 190px;
+
+  }
+  .footer-deatils{
+    width: 430px;
+    height: 200px;
+    text-align: left;
+    margin-right: 130px;
+  }
+  .footer-title{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    margin-left: 70px;
+  }
+  .footer-para{
+    width:450px;
+    height: 75px;
+    font-weight: 400;
+    font-size:14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 70px;
+  }
+  .first-list{
+    width:250px;
+    margin-right:120px;
+  }
+  .list-head{
+    color:white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .item{
+    margin-left: -5px;
+    margin-bottom: 10px;
+    list-style: none;
+    
+  }
+  .item a{
+    font-size:20px;
+    text-decoration: none;
+    font-size: 20px;
+    
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .copywrite{
+    margin: 0 auto;
+   width:1100px;
+   margin-top: 400px;
+    border-top:2px solid rgba(255, 255, 255, 0.1);
+    margin-left: -1250px;
+    
+  }
+  #copy{
+    color:white;
+    font-size: 1rem;
+    text-align: center;
+  }
+
 /* Responsive*/
 /*iphon*/
 
@@ -733,9 +804,28 @@ input[type="text"], #sex{
 .name,.trianer-title{
   margin-left: 30px;
 }
-.team bmi-para{
-  margin-right:100px;
+
+.footer-part{
+  flex-direction: column;
+  padding :50px 40px 80px 20px;
 }
+.footer-title{
+  margin-left: 0px;
+}
+.footer-para{
+  margin-left: 0px;
+  width:320px;
+}
+.item{
+  margin-bottom: 20px;
+}
+.copywrite{
+  width:360px;
+padding:10px;
+margin:0 auto; 
+}
+
+
 
 }
 /* ipad */
